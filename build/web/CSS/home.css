@@ -1,0 +1,59 @@
+body{
+	/*background-image:url("Image/background.jpg");*/
+        background-color: #33afff;
+}
+img{
+	height:400px;;
+}
+ul{
+	list-style:none;
+	color:red;
+}
+.main li{
+	float:left;
+	height:50px;
+	width:13.5%;
+	background-color:green;
+	text-align:center;
+	border:1px solid white;
+	border-radius:10px;
+	line-height:50px;
+}
+.main li a{
+	text-decoration:none;
+	display:block;
+	color:yellow;
+}
+.main li a:hover{
+	color:red;
+}
+.submain li{
+	float:left;
+	height:50px;
+	width:127%;
+        margin-left:-40px;
+	background-color:green;
+	text-align:center;
+	border:1px solid white;
+	border-radius:10px;
+	line-height:50px;
+	display:none;
+	color:yellow;
+}
+.submain:hover .sub li{
+	display:block;
+	color:red;
+}
+
+.footer{
+	height:40px;
+	width:100%;
+	top:1100px;
+	background-color:black;
+	font-size:25px;
+	color:white;
+	border:5px solid red;
+	border-style:outset;
+	text-align:center;
+    padding-top:10px;
+}
